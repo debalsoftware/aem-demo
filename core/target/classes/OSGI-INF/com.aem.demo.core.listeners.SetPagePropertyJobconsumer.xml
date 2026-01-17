@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.listeners.SetPagePropertyJobconsumer" immediate="true">
-  <property name="job.topics" type="String" value="setproperty/job"/>
-  <service>
-    <provide interface="org.apache.sling.event.jobs.consumer.JobConsumer"/>
-  </service>
-  <reference name="jcrUtility" interface="com.aem.demo.core.services.JcrUtility" field="jcrUtility"/>
-  <implementation class="com.aem.demo.core.listeners.SetPagePropertyJobconsumer"/>
-</scr:component>

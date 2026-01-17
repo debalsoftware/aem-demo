@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.workflows.InitiatorDetailsStep" immediate="true">
-  <property name="chooser.label" type="String" value="Initiator details info"/>
-  <service>
-    <provide interface="com.adobe.granite.workflow.exec.ParticipantStepChooser"/>
-  </service>
-  <implementation class="com.aem.demo.core.workflows.InitiatorDetailsStep"/>
-</scr:component>

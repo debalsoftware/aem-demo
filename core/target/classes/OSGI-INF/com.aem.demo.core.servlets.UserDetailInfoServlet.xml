@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.servlets.UserDetailInfoServlet">
-  <property name="sling.servlet.paths" type="String" value="/bin/userdetailinfo"/>
-  <property name="sling.servlet.methods" type="String" value="GET"/>
-  <service>
-    <provide interface="javax.servlet.Servlet"/>
-  </service>
-  <implementation class="com.aem.demo.core.servlets.UserDetailInfoServlet"/>
-</scr:component>

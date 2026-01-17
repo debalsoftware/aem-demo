@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.services.impl.ImageVideoAssetPredicate">
-  <property name="predicate.name" type="String" value="my-imagevideopredicate"/>
-  <service>
-    <provide interface="org.apache.commons.collections.Predicate"/>
-  </service>
-  <implementation class="com.aem.demo.core.services.impl.ImageVideoAssetPredicate"/>
-</scr:component>
