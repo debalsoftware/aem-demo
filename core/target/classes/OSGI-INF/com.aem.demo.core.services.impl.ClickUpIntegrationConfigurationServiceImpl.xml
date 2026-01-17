@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.services.impl.ClickUpIntegrationConfigurationServiceImpl" configuration-policy="require" immediate="true" activate="activate" modified="activate">
+  <property name="apiToken" type="String" value=""/>
+  <property name="apiEndPoint" type="String" value=""/>
+  <property name="authorizedUserDetailEndPoint" type="String" value=""/>
+  <property name="service.description" type="String" value=" ClickUp Configuration Read Service "/>
+  <service>
+    <provide interface="com.aem.demo.core.services.ClickUpIntegrationConfigurationService"/>
+  </service>
+  <implementation class="com.aem.demo.core.services.impl.ClickUpIntegrationConfigurationServiceImpl"/>
+</scr:component>

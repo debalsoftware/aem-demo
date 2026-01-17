@@ -1,0 +1,9 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "datasource.name":"HDFC_Customer_DataSource",
+  "jdbc.driver.class":"com.mysql.jdbc.Driver",
+  "jdbc.username":"root",
+  "jdbc.connection.uri":"jdbc:mysql://localhost:3306/hdfc_customers",
+  "jdbc.password":"Sht123ibnb$",
+  "jdbc.validation.query":"select * from hdfc_customers"
+}

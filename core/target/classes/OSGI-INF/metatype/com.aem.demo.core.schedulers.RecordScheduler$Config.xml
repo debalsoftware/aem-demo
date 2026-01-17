@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.aem.demo.core.schedulers.RecordScheduler$Config">
+  <OCD id="com.aem.demo.core.schedulers.RecordScheduler$Config" name="Record Scheduler Configuration" description="">
+    <AD id="serviceEnabled" type="Boolean" name="Enabled" description="Enable Scheduler" default="true"/>
+    <AD id="schedulerExpression" type="String" name="Expression" description="Cron-job expression. Default: run on every Saturday 2:00 AM." default="0\ 0\ 2\ 1/1\ *\ ?\ *"/>
+    <AD id="baseDamPath" type="String" name="Base Dam Path" description="An XML will be generated for all the ginRecords in this path" default="/content/dam/cms-commons/sigmaaldrich/product/documents"/>
+    <AD id="xmlFolderPath" type="String" name="XML Folder Path" description="An XML will be generated for all the ginRecords in this path" default="/ora_gpr/gpr/import_gprp/xml/"/>
+    <AD id="sftpDomainName" type="String" name="SFTP Domain Name" default="deda1x2746.merckgroup.com"/>
+    <AD id="sftpPortNumber" type="Integer" name="SFTP Port Number" default="22"/>
+    <AD id="sftpUserName" type="String" name="SFTP User name" default="gpr_admin"/>
+    <AD id="sftpPassword" type="Password" name="SFTP Password" default="gpr_2017"/>
+  </OCD>
+  <Designate pid="com.aem.demo.core.schedulers.RecordScheduler">
+    <Object ocdref="com.aem.demo.core.schedulers.RecordScheduler$Config"/>
+  </Designate>
+</metatype:MetaData>

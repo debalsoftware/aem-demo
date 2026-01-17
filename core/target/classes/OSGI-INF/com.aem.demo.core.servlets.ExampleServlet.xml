@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.servlets.ExampleServlet" activate="activate">
+  <property name="apiUrl" type="String" value="https://default-api.com"/>
+  <property name="timeout" type="Integer" value="5000"/>
+  <property name="sling.servlet.paths" type="String" value="/bin/example"/>
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <implementation class="com.aem.demo.core.servlets.ExampleServlet"/>
+</scr:component>

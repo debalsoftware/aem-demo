@@ -1,0 +1,7 @@
+{
+  "scripts": [
+       "create service user demoSystemUser with forced path system/cq:services/demosite",
+       "add demoSystemUser to group administrators",
+       "end"
+  ]
+}

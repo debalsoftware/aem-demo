@@ -1,0 +1,7 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "resourceTypedialogfieldmapping":[
+    "demo/components/text|text",
+    "demo/components/title|jcr:title"
+  ]
+}

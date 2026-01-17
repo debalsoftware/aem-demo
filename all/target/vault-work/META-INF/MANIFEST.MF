@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 11
+Implementation-Title: AEM Demo sites - All
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.aem.demo:aem-demo.all:0.0.1-SNAPSHOT
+Content-Package-Description: All content package for AEM Demo sites
+Content-Package-Roots: /apps/demo-packages,/apps/demo-vendor-packages,/a
+ pps/demo/install/org.apache.servicemix.bundles.solr-solrj-8.11.0_1.jar,
+ /apps/demo/install/org.apache.servicemix.bundles.zookeeper-3.8.0_1.jar
+

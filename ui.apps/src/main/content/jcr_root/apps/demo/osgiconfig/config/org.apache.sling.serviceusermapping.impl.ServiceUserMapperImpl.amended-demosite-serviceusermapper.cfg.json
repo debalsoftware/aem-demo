@@ -1,0 +1,5 @@
+{
+  "user.mapping": [
+    "aem-demo.core:readWriteService=demoSystemUser"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "apiToken": "pk_102791120_SIB02XB22VBXM3Z7CI5569VS4GFNPCLC",
+  "clickUpListID": 901407050996,
+  "contentPaths": ["/content/demo/us/en"],
+  "apiEndPoint": "https://api.clickup.com/api/v2/list/",
+  "authorizedUserDetailEndPoint": "https://api.clickup.com/api/v2/user"
+}

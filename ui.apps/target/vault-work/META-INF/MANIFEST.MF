@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 11
+Implementation-Title: AEM Demo sites - UI apps
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.aem.demo:aem-demo.ui.apps:0.0.1-SNAPSHOT
+Content-Package-Description: UI apps package for AEM Demo sites
+Content-Package-Dependencies: adobe/cq60:core.wcm.components.content:2.1
+ 7.0,adobe/cq60:core.wcm.components.config:2.17.0
+Content-Package-Roots: /apps/demo
+Import-Package: com.aem.demo.core.models;version="[1.0.0,2.0.0)",org.apa
+ che.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

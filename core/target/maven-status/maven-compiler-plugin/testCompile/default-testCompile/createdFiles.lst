@@ -1,0 +1,3 @@
+com\aem\demo\core\schedulers\SimpleScheduledTaskTest.class
+com\aem\demo\core\filters\LoggingFilterTest.class
+com\aem\demo\core\servlets\SimpleServletTest.class

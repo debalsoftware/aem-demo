@@ -1,0 +1,7 @@
+org\apache\sling\scripting\sightly\apps\demo\components\page\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\demo\components\page\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\demo\renderconditions\page__002d__render\page__002d__render__002e__html.class
+org\apache\sling\scripting\sightly\apps\demo\components\xfpage\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\demo\components\dynamicComponent\dynamicComponent__002e__html.class
+org\apache\sling\scripting\sightly\apps\demo\components\xfpage\content__002e__html.class
+org\apache\sling\scripting\sightly\apps\demo\components\xfpage\customfooterlibs__002e__html.class

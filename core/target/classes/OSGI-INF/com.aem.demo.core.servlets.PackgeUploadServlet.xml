@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.servlets.PackgeUploadServlet">
+  <property name="sling.servlet.paths" type="String" value="/bin/packageUpload"/>
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <reference name="jcrUtility" interface="com.aem.demo.core.services.JcrUtility" field="jcrUtility"/>
+  <reference name="packaging" interface="org.apache.jackrabbit.vault.packaging.Packaging" field="packaging"/>
+  <reference name="replicator" interface="com.day.cq.replication.Replicator" field="replicator"/>
+  <implementation class="com.aem.demo.core.servlets.PackgeUploadServlet"/>
+</scr:component>

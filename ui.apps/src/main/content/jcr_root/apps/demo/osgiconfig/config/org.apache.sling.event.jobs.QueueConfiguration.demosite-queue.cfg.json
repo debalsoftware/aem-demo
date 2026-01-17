@@ -1,0 +1,8 @@
+{
+  "queue.name":"AEM Workflow Process with JobManager and JobConsumer",
+  "queue.topics":[
+    "setproperty/job"
+  ],
+  "queue.preferRunOnCreationInstance":true,
+  "queue.keepJobs":true
+}

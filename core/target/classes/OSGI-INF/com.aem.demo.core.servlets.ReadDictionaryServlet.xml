@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.servlets.ReadDictionaryServlet">
+  <property name="sling.servlet.paths" type="String" value="/bin/readdictionary"/>
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <reference name="i18nProvider" interface="com.adobe.acs.commons.i18n.I18nProvider" field="i18nProvider"/>
+  <implementation class="com.aem.demo.core.servlets.ReadDictionaryServlet"/>
+</scr:component>

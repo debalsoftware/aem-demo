@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.aem.demo.core.configurations.TaskNotificationSchedulerConfiguration">
+  <OCD id="com.aem.demo.core.configurations.TaskNotificationSchedulerConfiguration" name="TaskNotificationSchedulerConfiguration" description="Task Notification scheduler configuration">
+    <AD id="schdulerName" type="String" name="Scheduler name" description="Name of the scheduler" default="Task\ Notification\ scheduler\ configuration"/>
+    <AD id="enabled" type="Boolean" name="Enabled" description="True, if scheduler service is enabled" default="false"/>
+    <AD id="cronExpression" type="String" name="Cron Expression" description="Cron expression used by the scheduler" default="0\ *\ *\ *\ *\ ?"/>
+    <AD id="assetPath" type="String" name="Asset Path" description="Asset Path" default="/content/dam"/>
+  </OCD>
+  <Designate pid="com.aem.demo.core.schedulers.TaskNotificationScheduler">
+    <Object ocdref="com.aem.demo.core.configurations.TaskNotificationSchedulerConfiguration"/>
+  </Designate>
+</metatype:MetaData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.servlets.DemoResponseServlet">
+  <property name="service.description" type="String" value="Servlet to call API Url"/>
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <property name="sling.servlet.resourceTypes" type="String" value="weretail/components/structure/page"/>
+  <property name="sling.servlet.extensions" type="String" value="txt"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <implementation class="com.aem.demo.core.servlets.DemoResponseServlet"/>
+</scr:component>

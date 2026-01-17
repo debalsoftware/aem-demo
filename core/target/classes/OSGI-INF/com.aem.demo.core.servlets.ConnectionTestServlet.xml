@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.demo.core.servlets.ConnectionTestServlet">
+  <property name="sling.servlet.paths" type="String" value="/bin/testConnection"/>
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <implementation class="com.aem.demo.core.servlets.ConnectionTestServlet"/>
+</scr:component>

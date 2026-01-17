@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.aem.demo.core.configurations.AllowedComponentPropertyMappingConfiguration">
+  <OCD id="com.aem.demo.core.configurations.AllowedComponentPropertyMappingConfiguration" name="Allowed AEM Component and Dialog Editor Field Mapping Configuration" description="Allowed AEM Component and Dialog Editor Field Mapping Configuration">
+    <AD id="resourceTypedialogfieldmapping" type="String" cardinality="2147483647" name="List of AEM Component and Dialog Editor Field Mapping" description="List of AEM Component and Dialog Editor Field Mapping" default=""/>
+  </OCD>
+  <Designate pid="com.aem.demo.core.services.impl.AllowedComponentPropertyMappingServiceImpl">
+    <Object ocdref="com.aem.demo.core.configurations.AllowedComponentPropertyMappingConfiguration"/>
+  </Designate>
+</metatype:MetaData>

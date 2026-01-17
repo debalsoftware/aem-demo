@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    description="Canada Regional Head Approver Override"
+    enabled="{Boolean}true"
+    overrides="[[/content/we-retail/ca]com.aem.demo.core.configurations.RegionalHeadConfiguration/reginalHead=&quot;iansmith&quot;]"
+    service.ranking="{Long}100"/>

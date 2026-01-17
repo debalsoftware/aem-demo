@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.aem.demo.core.configurations.WorkflowSchedulerConfiguration">
+  <OCD id="com.aem.demo.core.configurations.WorkflowSchedulerConfiguration" name="Workflow Scheduler Configuration" description="Workflow Scheduler Configuration">
+    <AD id="schdulerName" type="String" name="Scheduler name" description="Name of the scheduler" default="Workflow\ Scheduler\ configuration"/>
+    <AD id="enabled" type="Boolean" name="Enabled" description="True, if scheduler service is enabled" default="false"/>
+    <AD id="cronExpression" type="String" name="Cron Expression" description="Cron expression used by the scheduler" default="0\ *\ *\ *\ *\ ?"/>
+    <AD id="pagePath" type="String" name="Webpage Path" description="Webpage Path" default="/content/we-retail/language-masters/en"/>
+    <AD id="model" type="String" name="Workflow Model" description="Workflow Model" default=""/>
+  </OCD>
+  <Designate pid="com.aem.demo.core.schedulers.WorkflowScheduler">
+    <Object ocdref="com.aem.demo.core.configurations.WorkflowSchedulerConfiguration"/>
+  </Designate>
+</metatype:MetaData>

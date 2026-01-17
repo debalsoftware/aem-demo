@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/demo-packages"/>
+    <filter root="/apps/demo-vendor-packages"/>
+    <filter root="/apps/demo/install/org.apache.servicemix.bundles.zookeeper-3.8.0_1.jar"/>
+    <filter root="/apps/demo/install/org.apache.servicemix.bundles.solr-solrj-8.11.0_1.jar"/>
+</workspaceFilter>
