@@ -1,0 +1,43 @@
+# Maven build output
+target/
+
+
+# IDE files (recommended)
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*/src/main/content/jcr_root/META-INF/*
+*/target/*
+*/.settings/*
+*/.classpath
+*/.project
+archetype.properties
+
+
+# Log files
+*.log
+
+# NPM
+node_modules/
+package-lock.json
+yarn.lock
+
+# Webpack
+build/
+dist/
+
+# Frontend Maven Plugin
+node/
+
+# Tests
+coverage/
