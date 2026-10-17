@@ -1,0 +1,8 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "businessSelector":"dashboard",
+  "persistedQueryNames":[
+    "articles",
+    "authors"
+  ]
+}

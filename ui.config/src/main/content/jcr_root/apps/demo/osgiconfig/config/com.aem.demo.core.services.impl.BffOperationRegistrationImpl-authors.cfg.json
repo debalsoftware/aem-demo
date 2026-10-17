@@ -1,0 +1,5 @@
+{
+  "businessSelector": "authors",
+  "persistedQueryNames": ["authors"],
+  "parallelExecution": false
+}

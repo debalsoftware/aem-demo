@@ -1,0 +1,5 @@
+{
+  "businessSelector": "articles",
+  "persistedQueryNames": ["articles"],
+  "parallelExecution": false
+}

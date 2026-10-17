@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        jcr:lastModified="{Date}2026-09-27T11:52:48.614+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Authors"
+        metadataSchema="System Default"
+        processingProfile="System Default"
+        sourcing="false">
+        <policies jcr:primaryType="nt:unstructured">
+            <cfm
+                jcr:primaryType="nt:unstructured"
+                policy-cfm-allowedModelsByPaths="[/conf/AEM-Demo-SItes/settings/dam/cfm/models/author-model]"/>
+        </policies>
+    </jcr:content>
+</jcr:root>

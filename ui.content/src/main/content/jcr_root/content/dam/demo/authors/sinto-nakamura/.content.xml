@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[cq:contentFragment,mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d8707805-4532-4649-88ea-51e2c8c1dbcd">
+    <jcr:content
+        cq:name="sinto-nakamura"
+        cq:parentPath="/content/dam/demo/authors"
+        jcr:lastModified="{Date}2026-09-27T12:04:45.905+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sinto Nakamura"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-09-27T12:04:45.905+05:30">
+        <data
+            cq:model="/conf/AEM-Demo-SItes/settings/dam/cfm/models/author-model"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}2">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                authorBio="&lt;p>He is an Enterprise Architect.&lt;/p>&#xa;"
+                authorBio_x0040_ContentType="text/html"
+                authorBio_x0040_LastModified="{Date}2026-09-27T12:04:45.885+05:30"
+                authorBio_x0040_LastModifiedBy="admin"
+                authorName="Sinto Nakamura"
+                authorName_x0040_LastModified="{Date}2026-09-27T12:04:45.882+05:30"
+                authorName_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="831964e9-593f-4f33-a5e5-9374932a562e"
+                _x0040_string_x0040_model="/conf/AEM-Demo-SItes/settings/dam/cfm/models/author-model"
+                _x0040_string_x0040_path="/content/dam/demo/authors/sinto-nakamura"
+                _x0040_string_x0040_uuid="d8707805-4532-4649-88ea-51e2c8c1dbcd"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_authorBio="&lt;p>He is an Enterprise Architect.&lt;/p>&#xa;"
+                string_x0040_authorBio_x0040_html="&lt;p>He is an Enterprise Architect.&lt;/p>&#xa;"
+                string_x0040_authorBio_x0040_json="\[{&quot;nodeType&quot;:&quot;paragraph&quot;,&quot;content&quot;:[{&quot;nodeType&quot;:&quot;text&quot;,&quot;value&quot;:&quot;He is an Enterprise Architect.&quot;}]}]"
+                string_x0040_authorBio_x0040_markdown="He is an Enterprise Architect.&#xa;"
+                string_x0040_authorBio_x0040_plaintext="He is an Enterprise Architect."
+                string_x0040_authorName="Sinto Nakamura"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

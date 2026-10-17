@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[cq:contentFragment,mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="965f95d8-8291-4554-b7d7-183591021fe8">
+    <jcr:content
+        cq:name="debal-das"
+        cq:parentPath="/content/dam/demo/authors"
+        jcr:lastModified="{Date}2026-09-27T12:04:09.849+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Debal Das"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-09-27T12:04:09.849+05:30">
+        <data
+            cq:model="/conf/AEM-Demo-SItes/settings/dam/cfm/models/author-model"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}2">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                authorBio="&lt;p>He is an AEM Architect.&lt;/p>&#xa;"
+                authorBio_x0040_ContentType="text/html"
+                authorBio_x0040_LastModified="{Date}2026-09-27T12:04:09.804+05:30"
+                authorBio_x0040_LastModifiedBy="admin"
+                authorName="Debal Das"
+                authorName_x0040_LastModified="{Date}2026-09-27T12:04:09.800+05:30"
+                authorName_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="1037b2ff-930b-4468-83e9-28548af469b6"
+                _x0040_string_x0040_model="/conf/AEM-Demo-SItes/settings/dam/cfm/models/author-model"
+                _x0040_string_x0040_path="/content/dam/demo/authors/debal-das"
+                _x0040_string_x0040_uuid="965f95d8-8291-4554-b7d7-183591021fe8"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_authorBio="&lt;p>He is an AEM Architect.&lt;/p>&#xa;"
+                string_x0040_authorBio_x0040_html="&lt;p>He is an AEM Architect.&lt;/p>&#xa;"
+                string_x0040_authorBio_x0040_json="\[{&quot;nodeType&quot;:&quot;paragraph&quot;,&quot;content&quot;:[{&quot;nodeType&quot;:&quot;text&quot;,&quot;value&quot;:&quot;He is an AEM Architect.&quot;}]}]"
+                string_x0040_authorBio_x0040_markdown="He is an AEM Architect.&#xa;"
+                string_x0040_authorBio_x0040_plaintext="He is an AEM Architect."
+                string_x0040_authorName="Debal Das"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

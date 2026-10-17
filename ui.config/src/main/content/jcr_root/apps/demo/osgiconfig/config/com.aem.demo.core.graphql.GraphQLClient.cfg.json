@@ -1,0 +1,5 @@
+{
+  "graphqlBaseUrl": "/graphql/execute",
+  "graphqlEndpoint": "AEM-Demo-SItes",
+  "damRootPath": "/content/dam/demo/"
+}

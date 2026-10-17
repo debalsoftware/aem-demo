@@ -1,0 +1,5 @@
+{
+  "businessSelector": "article-details",
+  "persistedQueryNames": ["articleById", "authorsByArticle"],
+  "parallelExecution": true
+}
