@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[cq:contentFragment,mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="905c582b-f48c-461c-8314-f2323ad79575">
+    <jcr:content
+        cq:name="article-one"
+        cq:parentPath="/content/dam/demo/articles"
+        jcr:lastModified="{Date}2026-09-27T11:59:06.471+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Article One"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-09-27T11:59:06.471+05:30">
+        <data
+            cq:model="/conf/AEM-Demo-SItes/settings/dam/cfm/models/article-model"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}2">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                articleDetails="&lt;p>This is Article One.&lt;/p>&#xa;"
+                articleDetails_x0040_ContentType="text/html"
+                articleDetails_x0040_LastModified="{Date}2026-09-27T11:59:06.442+05:30"
+                articleDetails_x0040_LastModifiedBy="admin"
+                articlePublishedDate="{Date}2026-09-27T00:00:00.000Z"
+                articlePublishedDate_x0040_LastModified="{Date}2026-09-27T11:59:06.445+05:30"
+                articlePublishedDate_x0040_LastModifiedBy="admin"
+                articleTitle="Article One"
+                articleTitle_x0040_LastModified="{Date}2026-09-27T11:59:06.440+05:30"
+                articleTitle_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="39e7d2a5-6e07-4ed8-9eff-bd2dc22ab781"
+                _x0040_string_x0040_model="/conf/AEM-Demo-SItes/settings/dam/cfm/models/article-model"
+                _x0040_string_x0040_path="/content/dam/demo/articles/article-one"
+                _x0040_string_x0040_uuid="905c582b-f48c-461c-8314-f2323ad79575"
+                _x0040_stringArray_x0040_variations="[]"
+                calendar_x0040_articlePublishedDate="{Date}2026-09-27T00:00:00.000Z"
+                string_x0040_articleDetails="&lt;p>This is Article One.&lt;/p>&#xa;"
+                string_x0040_articleDetails_x0040_html="&lt;p>This is Article One.&lt;/p>&#xa;"
+                string_x0040_articleDetails_x0040_json="\[{&quot;nodeType&quot;:&quot;paragraph&quot;,&quot;content&quot;:[{&quot;nodeType&quot;:&quot;text&quot;,&quot;value&quot;:&quot;This is Article One.&quot;}]}]"
+                string_x0040_articleDetails_x0040_markdown="This is Article One.&#xa;"
+                string_x0040_articleDetails_x0040_plaintext="This is Article One."
+                string_x0040_articleTitle="Article One"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

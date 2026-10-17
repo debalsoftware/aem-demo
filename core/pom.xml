@@ -213,7 +213,6 @@ Import-Package: javax.annotation;version=0.0.0,*
 			<groupId>org.apache.sling</groupId>
 			<artifactId>org.apache.sling.models.api</artifactId>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
 		<dependency>
 			<groupId>com.squareup.okhttp3</groupId>
@@ -226,6 +225,19 @@ Import-Package: javax.annotation;version=0.0.0,*
 			<artifactId>gson</artifactId>
 			<version>2.9.1</version>
 		</dependency>
+		<dependency>
+			<groupId>com.adobe.aem</groupId>
+			<artifactId>aem-sdk-api</artifactId>
+			<version>2026.9.28386.20260923T071724Z-260900</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- Source: https://mvnrepository.com/artifact/org.apache.sling/org.apache.sling.servlet-helpers -->
+		<!--<dependency>
+			<groupId>org.apache.sling</groupId>
+			<artifactId>org.apache.sling.servlet-helpers</artifactId>
+			<version>2.0.0</version>
+			<scope>compile</scope>
+		</dependency>-->
 
 
 		<dependency>
